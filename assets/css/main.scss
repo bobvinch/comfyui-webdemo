@@ -1,0 +1,15 @@
+// enforce font globally
+// @use "vuetify/variables";
+@import "variables";
+@import '../../node_modules/vuetify/styles';
+@import "override";
+@import "common/gradients";
+@import "common/animation";
+@import "common/beautify";
+@import "vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css";
+@import 'pages/editor';
+
+//@use 'vuetify' with (
+//  $select-line-height: 1.0,
+//  $autocomplete-selection-gap: 2px,
+//);

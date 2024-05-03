@@ -1,0 +1,31 @@
+@use 'sass:math';
+@use 'sass:map';
+@use 'sass:meta';
+@use '../../node_modules/vuetify/lib/styles/tools/functions' as *;
+@use "vuetify/elevations";
+
+
+// Custom Variables
+$white: #fff !default;
+$font-family: "Quicksand";
+//$input-font-size:10px;
+$select-line-height: 1.0;
+// 全局变量
+$body-font-family: 'Work Sans', serif;
+$app-bar-elevation: 4px;
+
+//$btn-sizes: (
+//        'default': 300,
+//        'large': 154
+//);
+
+// Vuetify Variables
+@forward '../../node_modules/vuetify/settings' with ( //elevations
+    $shadow-key-umbra-opacity: elevations.$shadow-key-umbra-opacity,
+    $shadow-key-penumbra-opacity: elevations.$shadow-key-penumbra-opacity,
+    $shadow-key-ambient-opacity: elevations.$shadow-key-ambient-opacity,
+    $shadow-key-umbra: elevations.$shadow-key-umbra,
+    $shadow-key-penumbra: elevations.$shadow-key-penumbra,
+    $shadow-key-ambient: elevations.$shadow-key-ambient,
+
+);

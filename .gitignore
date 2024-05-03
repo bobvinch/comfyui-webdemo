@@ -1,0 +1,26 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+#环境变量
+.env
+.env.dev
+.env.prod
+#配置文件
+docker-compose.yml
